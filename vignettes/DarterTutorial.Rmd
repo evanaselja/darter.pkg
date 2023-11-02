@@ -1,0 +1,13 @@
+---
+title: "DarterTutorial"
+author: "Emily Vanaselja"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+This package is used to analyze Darter data that has been collected in the southeastern United States. 

@@ -1,0 +1,22 @@
+Package: vanaselja.pkg
+Title: An R package for processing darter data
+Version: 0.1.0
+Authors@R: c(
+  person(given = "Emily", 
+   family = "Vanaselja",
+   role = c("cre", "aut"),
+   email = "emily.vanaselja@selu.edu")
+   )
+Description: An R package to process darter data. Most functions accept any functional input and allow users to create graphs and calculate a wide variety of dat relating to abiotic and biotic characteristics. Uses can use this package to perfomr a wide variety of statistic analyses, not always relating to fish. 
+License: MIT + file LICENSE
+Depends: 
+  R (>= 2.10)
+Imports: 
+  tidyverse, broom
+RoxygenNote: 7.1.1
+Suggests:
+  knitr,
+  rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE) 
