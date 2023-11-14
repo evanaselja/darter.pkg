@@ -12,7 +12,7 @@
 plot_data <- function(data, x, y) {
   if (is.numeric(data[[y]])) { 
     plot <- data %>% 
-      ggplot(mapping = aes({{x}}, {{y}})) + geom_jitter(color = "hotpink")
+      ggplot(mapping = aes({{ x }}, {{ y }})) + geom_jitter(color = "hotpink")
     return(plot)
   } else {
   print("lol")

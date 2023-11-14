@@ -19,6 +19,24 @@
     <loc>/index.html</loc>
   </url>
   <url>
+    <loc>/reference/bar_graph.html</loc>
+  </url>
+  <url>
+    <loc>/reference/clean_data.html</loc>
+  </url>
+  <url>
+    <loc>/reference/filter_sexes.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/linear_model.html</loc>
+  </url>
+  <url>
+    <loc>/reference/plot_data.html</loc>
+  </url>
+  <url>
+    <loc>/reference/summarize_value.html</loc>
   </url>
 </urlset>

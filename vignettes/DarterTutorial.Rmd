@@ -11,3 +11,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 This package is used to analyze Darter data that has been collected in the southeastern United States. 
+
+How to install"
+```{r}
+
+devtools::install_github("evanaselja/darter.pkg")
+
+library(dplyr)
+library(ggplot2)
+```
+
+In this tutorial we are using gutselli meristics data collected from Tennessee. 
+
+```{r}
+#install.packages("googlesheets4")
+library(googlesheets4)
+googlesheets4::gs4_deauth()
+darter_data <- read_sheet("https://docs.google.com/spreadsheets/d/14Xv_bXq3fkIV_zHmRY6dwJZF735Ba9p5YJLQ2wDR0FA/edit?usp=sharing")
+```
+

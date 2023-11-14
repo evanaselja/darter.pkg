@@ -12,11 +12,10 @@ bar_graph <- function(data, x) {
   if (is.numeric(data[[x]])) {
   plot <- data %>%
     na.omit() %>% 
-    ggplot(mapping = aes(x = .data[[x]])) + geom_bar()
+    ggplot(mapping = aes(x = {{ x }})) + geom_bar()
   return(plot)
 } else {
   print("Please put in numeric values for x and try again.")
 }
 }
 
-#bar_graph(surveys, "weight")

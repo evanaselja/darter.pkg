@@ -17,6 +17,5 @@ if (anyNA(clean) == FALSE) {
 }
 }
   
-#clean_data(surveys)
 
 

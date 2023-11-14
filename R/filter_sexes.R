@@ -11,13 +11,12 @@
 
 filter_sexes <- function(data, s_vars, s) {
     filt <- data %>% 
-      filter(data[[s_vars]] != {{s}}) 
-    if (any(data[[s_vars]] != {{s}})) {
+      filter({{ s_vars }} != {{ s }})
+    if ((s_vars) != {{s}}) {
           return(filt) 
       } else {
         print("Sex not filtered.")
       }
 }
 
-#filter_sexes(mydata, "Sex", "m")
 
