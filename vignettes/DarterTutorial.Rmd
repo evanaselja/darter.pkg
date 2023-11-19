@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This package is used to analyze Darter data that has been collected in the southeastern United States. 
 
-How to install"
+How to install:
 ```{r}
 
 devtools::install_github("evanaselja/darter.pkg")
@@ -30,3 +30,66 @@ googlesheets4::gs4_deauth()
 darter_data <- read_sheet("https://docs.google.com/spreadsheets/d/14Xv_bXq3fkIV_zHmRY6dwJZF735Ba9p5YJLQ2wDR0FA/edit?usp=sharing")
 ```
 
+This package requires ggplot2 and dplyr to be downloaded and added to the directory.
+
+The package contains six functions to evaluate the data:
+
+1. bar_graph Creates a bar graph from any data that is put into the function. The x variable must be numeric. Simply makes a bar graph using the data instead of putting everything into ggplot2.
+
+```{r}
+
+#bar_graph(data, x)
+
+bar_graph(darter_data, "SL")
+
+```
+
+2. clean_data Cleans the data of any NAs, deleting entire row where the NAs are. Cleaning out the NAs is vital in summarizing and quantifying data. 
+
+```{r}
+
+#clean_data(data)
+
+clean_data(darter_data)
+
+```
+
+3. filter_sexes Filters out any sex in a data set. Input the title of the column for sex in for s_vars and the sex you want to eliminate for s.
+
+```{r}
+
+#filter_sexes(data, s_vars, s)
+
+filter_sexes(darter_data, Sex, "m")
+
+```
+
+4. linear_model Creates a linear model. Creates a linear model of the data and the x and y values.
+
+```{r}
+
+#linear_model(df, x, y)
+
+linear_model(darter_data, "SL", "LL")
+
+```
+
+5. plot_data Plots a jitter plot using any data that you put into the function. The y variable must be numeric.
+
+```{r}
+
+#plot_data(data, x, y)
+
+plot_data(darter_data, "Sex", "LL")
+
+```
+
+6. summarize_value Summarizes the values of the mean of any variable of the data set, and groups it by any variable.
+
+```{r}
+
+#summarize_value(data, vars, s_var)
+
+summarize_value(darter_data, SL, Sex)
+
+```
