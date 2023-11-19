@@ -10,15 +10,17 @@
 #' @export 
 
 summarize_value <- function(data, vars, s_var) {
- # if (is.numeric(data[[ vars ]])) {
-  mut <- data %>% 
-    na.omit() %>% 
-    group_by({{ s_var }}) %>% 
-    summarize(mean_var = mean({{ vars }}))
-  return(mut)
-  # } else {
-   # print("no")
-#}
+  column <- data %>% 
+    select({{vars}})
+  if(sum(column) > 0 ){
+    mut <- data %>% 
+      na.omit() %>% 
+      group_by({{ s_var }}) %>% 
+      summarize(mean_var = mean({{ vars }}))
+    return(mut)
+   } else {
+    print("no")
+    }
 }
 
 
