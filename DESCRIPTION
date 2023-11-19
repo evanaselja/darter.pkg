@@ -7,7 +7,7 @@ Authors@R: c(
    role = c("cre", "aut"),
    email = "emily.vanaselja@selu.edu")
    )
-Description: An R package to process darter data. Most functions accept any functional input and allow users to create graphs and calculate a wide variety of dat relating to abiotic and biotic characteristics. Uses can use this package to perfomr a wide variety of statistic analyses, not always relating to fish. 
+Description: An R package to process darter data. Most functions accept any functional input and allow users to create graphs and calculate a wide variety of data relating to abiotic and biotic characteristics. Users can use this package to perform a wide variety of statistic analyses, not always relating to fish. 
 License: MIT + file LICENSE
 Depends: 
   R (>= 2.10)
