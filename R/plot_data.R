@@ -10,14 +10,12 @@
 #' @export 
 
 plot_data <- function(data, x, y) {
-  if (is.numeric(data[[y]])) { 
-    plot <- data %>% 
-      ggplot(mapping = aes({{ x }}, {{ y }})) + geom_jitter(color = "hotpink")
+  if (is.numeric(data[[x]])) { 
+    plot <- ggplot(data, aes_string(x = x, y = y)) + geom_jitter(color = "hotpink")
     return(plot)
   } else {
-  print("lol")
+    print("Invalid input: Both x and y should be numeric columns.")
+  }
 }
-}
-
 
 
