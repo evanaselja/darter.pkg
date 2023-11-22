@@ -36,9 +36,9 @@ The package contains six functions to evaluate the data:
 
 1. bar_graph Creates a bar graph from any data that is put into the function. The x variable must be numeric. Simply makes a bar graph using the data instead of putting everything into ggplot2. The plot created is a bar graph that has the x variable on the x-axis and the count of the x variable on the y-axis.
 
-```{r}
+
 bar_graph(darter_data, "SL")
-```
+
 
 2. clean_data Cleans the data of any NAs, deleting entire row where the NAs are. Cleaning out the NAs is vital in summarizing and quantifying data. This method is useful in not having to create a pipeline to make sure that the NAs are omitted from the data.
 
