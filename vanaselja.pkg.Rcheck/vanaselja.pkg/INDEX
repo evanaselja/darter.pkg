@@ -1,0 +1,11 @@
+bar_graph               Creates a bar graph from any data that is put
+                        into the function.
+clean_data              Cleans the data of any NAs, deleting entire row
+                        where the NAs are
+filter_sexes            Filters out any sex in a data set.
+linear_model            Creates a linear model.
+plot_data               Plots a jitter plot using any data that you put
+                        into the function.
+summarize_value         Summarizes the values of the mean of any
+                        variable of the data set, and groups it by any
+                        variable.
