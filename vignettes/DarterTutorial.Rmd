@@ -38,7 +38,6 @@ The package contains six functions to evaluate the data:
 
 ```{r}
 
-#bar_graph(data, x)
 
 bar_graph(darter_data, "SL")
 
@@ -48,7 +47,6 @@ bar_graph(darter_data, "SL")
 
 ```{r}
 
-#clean_data(data)
 
 clean_data(darter_data)
 
@@ -58,7 +56,6 @@ clean_data(darter_data)
 
 ```{r}
 
-#filter_sexes(data, s_vars, s)
 
 filter_sexes(darter_data, Sex, "m")
 
@@ -68,7 +65,6 @@ filter_sexes(darter_data, Sex, "m")
 
 ```{r}
 
-#linear_model(df, x, y)
 
 linear_model(darter_data, "SL", "LL")
 
@@ -78,7 +74,6 @@ linear_model(darter_data, "SL", "LL")
 
 ```{r}
 
-#plot_data(data, x, y)
 
 plot_data(darter_data, "SL", "LL")
 
@@ -88,7 +83,6 @@ plot_data(darter_data, "SL", "LL")
 
 ```{r}
 
-#summarize_value(data, vars, s_var)
 
 summarize_value(darter_data, SL, Sex)
 

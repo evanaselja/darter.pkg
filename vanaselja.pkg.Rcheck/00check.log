@@ -25,8 +25,8 @@
 * checking for future file timestamps ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... NOTE
-Non-standard files/directories found at top level:
-  ‘README.html’ ‘docs’
+Non-standard file/directory found at top level:
+  ‘README.html’
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK

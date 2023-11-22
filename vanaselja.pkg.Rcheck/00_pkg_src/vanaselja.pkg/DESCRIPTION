@@ -17,6 +17,6 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 NeedsCompilation: no
-Packaged: 2023-11-22 17:55:37 UTC; r2147496
+Packaged: 2023-11-22 18:12:56 UTC; r2147496
 Author: Emily Vanaselja [cre, aut]
 Maintainer: Emily Vanaselja <emily.vanaselja@selu.edu>
