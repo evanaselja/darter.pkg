@@ -25,8 +25,8 @@
 * checking for future file timestamps ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... NOTE
-Non-standard file/directory found at top level:
-  ‘README.html’
+Non-standard files/directories found at top level:
+  ‘README.html’ ‘vanaselja.pkg_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
 * checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK

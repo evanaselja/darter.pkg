@@ -9,7 +9,7 @@ filter_sexes(data, s_vars, s)
 \arguments{
 \item{data}{Needs to be a data set that contains sexes in the form of strings.}
 
-\item{s_vars}{The variable that the list of sexes is connect to. Must be placed in quotation marks.}
+\item{s_vars}{The variable that the list of sexes is connect to.}
 
 \item{s}{The sex that is to be filtered out. Must be placed in quotation marks.}
 }

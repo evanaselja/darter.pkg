@@ -9,9 +9,9 @@ plot_data(data, x, y)
 \arguments{
 \item{data}{Data must be in the form of a data frame, needs to have at least one numeric value.}
 
-\item{x}{The variable graphed on the x-axis of the graph, needs to be in quotation marks.}
+\item{x}{The variable graphed on the x-axis of the graph, needs to be in quotation marks, must be numeric.}
 
-\item{y}{The variable graphed on the y-axis of the graph, needs to be in quotation marks, must be numeric.}
+\item{y}{The variable graphed on the y-axis of the graph, needs to be in quotation marks.}
 }
 \value{
 plot Returns a scatter plot that graphs the x and y, with hot pink scatter plots.

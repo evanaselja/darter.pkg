@@ -16,8 +16,9 @@ Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+URL: https://evanaselja.github.io/darter.pkg/
 NeedsCompilation: no
-Packaged: 2023-11-22 18:12:56 UTC; r2147496
+Packaged: 2023-11-27 16:08:28 UTC; r2147496
 Author: Emily Vanaselja [cre, aut]
 Maintainer: Emily Vanaselja <emily.vanaselja@selu.edu>
-Built: R 4.3.1; ; 2023-11-22 18:13:01 UTC; unix
+Built: R 4.3.1; ; 2023-11-27 16:08:31 UTC; unix

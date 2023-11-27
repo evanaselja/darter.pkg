@@ -36,60 +36,41 @@ The package contains six functions to evaluate the data:
 
 1. bar_graph Creates a bar graph from any data that is put into the function. The x variable must be numeric. Simply makes a bar graph using the data instead of putting everything into ggplot2. The plot created is a bar graph that has the x variable on the x-axis and the count of the x variable on the y-axis.
 
-```{r}
-
-#bar_graph(data, x)
 
 bar_graph(darter_data, "SL")
 
-```
 
 2. clean_data Cleans the data of any NAs, deleting entire row where the NAs are. Cleaning out the NAs is vital in summarizing and quantifying data. This method is useful in not having to create a pipeline to make sure that the NAs are omitted from the data.
 
-```{r}
-
-#clean_data(data)
 
 clean_data(darter_data)
 
-```
+
 
 3. filter_sexes Filters out any sex in a data set. Input the title of the column for sex in for s_vars and the sex you want to eliminate for s. The variable that you want to eliminate must be in quotations marks to ensure that the function looks for the unwanted sex. This helps to prevent needing a pipeline to dispose of unwanted sexes.
 
-```{r}
-
-#filter_sexes(data, s_vars, s)
 
 filter_sexes(darter_data, Sex, "m")
 
-```
+
 
 4. linear_model Creates a linear model. Creates a linear model of the data and the x and y values. This method allows the user to not need to add in any extra characters except the ones that are needed for the function to run.
 
-```{r}
-
-#linear_model(df, x, y)
 
 linear_model(darter_data, "SL", "LL")
 
-```
+
 
 5. plot_data Plots a jitter plot using any data that you put into the function. The x variable must be numeric for the function to run properly. Works to not have the user put the data and variables into the ggplot2 pipeline, and make a simple graph from little input.
 
-```{r}
-
-#plot_data(data, x, y)
 
 plot_data(darter_data, "SL", "LL")
 
-```
+
 
 6. summarize_value Summarizes the values of the mean of any variable of the data set and groups it by any variable. The variable that finds the mean needs to have numerics, and the other variable can be anything that can be used to categorization.
 
-```{r}
-
-#summarize_value(data, vars, s_var)
 
 summarize_value(darter_data, SL, Sex)
 
-```
+
