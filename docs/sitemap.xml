@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/404.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/articles/DarterTutorial.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/articles/DarterTutorial.html</loc>
   </url>
   <url>
-    <loc>/articles/index.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/articles/index.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/index.html</loc>
   </url>
   <url>
-    <loc>/reference/bar_graph.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/bar_graph.html</loc>
   </url>
   <url>
-    <loc>/reference/clean_data.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/clean_data.html</loc>
   </url>
   <url>
-    <loc>/reference/filter_sexes.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/filter_sexes.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/linear_model.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/linear_model.html</loc>
   </url>
   <url>
-    <loc>/reference/plot_data.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/plot_data.html</loc>
   </url>
   <url>
-    <loc>/reference/summarize_value.html</loc>
+    <loc>https://evanaselja.github.io/darter.pkg/reference/summarize_value.html</loc>
   </url>
 </urlset>
